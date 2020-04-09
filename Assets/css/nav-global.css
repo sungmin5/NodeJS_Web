@@ -1,10 +1,9 @@
 #div-global{
   align-items: center;
   background-color: black;
-  border-bottom: 1px solid #b8b8b8;
+  border-bottom: 0px;
   display:flex;
   justify-content: space-between;
-  min-height: 60px;
   position:fixed;
   vertical-align: middle;
   width: 100%;
@@ -18,7 +17,7 @@
   float:left;
 }
 #img-logo{
-  height: 100px;
+  height: 70px;
   padding: 5px 30px 5px 100px;
 }
 
@@ -30,7 +29,6 @@
   justify-content: space-evenly;
   list-style: none;
   margin-right: 100px;
-  text-align: center;
 }
 #ul-nav li{
   color: white;
@@ -42,7 +40,7 @@
 #div-global-links a, #div-global-links a:visited{
   color: white;
   font-family:Arial, serif;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 20px;
   padding:5px 10px 5px 10px;
   text-decoration: none;
